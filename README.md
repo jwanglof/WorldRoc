@@ -14,3 +14,7 @@ Bootstrap
 Template
 ======
 http://www.templatemonster.com/demo/41260.html
+
+Other
+======
+http://www.tdd-django-tutorial.com/tutorial/
