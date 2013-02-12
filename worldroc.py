@@ -1,7 +1,8 @@
 import config
 from flask import Flask, jsonify, request, render_template
-from model import db, app, PageContent
+from model import PageContent
 
+app = Flask(__name__)
 
 # error handling routing
 @app.errorhandler(404)
