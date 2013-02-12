@@ -1,6 +1,6 @@
 dbhost = 'localhost'
-dbuser = 'STABEN'
-dbpass = 'EasyPassword'
-dbname = 'mp'
+dbuser = 'johan'
+dbpass = 'geanbe33'
+dbname = 'worldroc'
 
-DB_URI = 'mysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' +dbname
+DB_URI = 'mysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' + dbname

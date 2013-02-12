@@ -1,13 +1,18 @@
-from flask import Flask
+import config
+from flask import Flask, jsonify, request, render_template
+from model import db, app, PageContent
 
-app = Flask(__name__)
 
+# error handling routing
+@app.errorhandler(404)
+def page_not_found(error):
+    return "This page doesn't exist", 404
 
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
-
+def index():
+    return render_template('index.html', title='Home')
 
 if __name__ == '__main__':
+    app.debug = True
     app.run()
 
