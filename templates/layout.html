@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WorldRoc - {{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='debug.css') }}">/-->
+
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="inner">
+            <img src="{{ url_for('static', filename='wrc_logo_small.png')}}" />
+            <div class="header_logo_text">
+                <!--World <br/> Relief <br/>
+                Organization <br/>
+                of <br/> Children/-->
+                World Relief Organization of Children
+            </div>
+            <div class="menu">
+                <hr/>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <hr/>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="inner">
+            {% block body %}{% endblock %}
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="inner">
+            <h3>About</h3>
+        </div>
+    </div>
+
+</body>
+</html>

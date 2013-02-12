@@ -1,6 +1,7 @@
 import config
+import io
 from flask import Flask, jsonify, request, render_template
-from model import PageContent
+#from model import PageContent
 
 app = Flask(__name__)
 
@@ -11,7 +12,9 @@ def page_not_found(error):
 
 @app.route('/')
 def index():
-    return render_template('index.html', title='Home')
+    childDir = 'static/img/children_pictures/'
+    childPictures = io.loadPictures(childDir)
+    return render_template('home.html', title='Home', childDir=childDir, childPictures=childPictures)
 
 if __name__ == '__main__':
     app.debug = True

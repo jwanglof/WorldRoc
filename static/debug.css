@@ -1,0 +1,12 @@
+
+.span12 {
+    border: 1px solid #000;
+}
+
+.menu {
+    border: 1px solid #c0c0c0;
+}
+
+.inner {
+    border: 1px dotted #f00;
+}
