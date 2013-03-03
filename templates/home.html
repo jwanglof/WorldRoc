@@ -1,7 +1,9 @@
 {% extends "layout.html" %}
 {% block body %}
+<h1>Home</h1>
+
 {% for picture in childPictures %}
-<div id="child_div">
+<div id="childLooper">
     <img src="{{ childDir }}/{{ picture }}" class="child_div"/>
 </div>
 {% endfor %}

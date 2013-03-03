@@ -10,28 +10,39 @@ body {
 }
 
 .header {
-    height: 250px;
-    margin-top: 10px;
+    /**/
+    height: 265px;
+    background-image: url('world2.png'), url('header2.png');
+    background-position: center top, left top;
+    background-repeat: no-repeat, repeat-x;
 }
 
 .header img {
+    margin-top: 3px;
     float: left;
 }
 
-.header_logo_text {
-    /*font-size: 25px;
-    letter-spacing: -2px;
-    line-height: 50px;
-    float: left*/
-    position: absolute;
-    top: 257px;
-    font-size: 25px;
+.header .logo_text {
+    float: left;
+}
+
+.inner {
+    margin: 0px auto;
+    clear: both;
+    width: 940px;
+}
+
+.inner h3 {
+    float: left;
+    margin-right: 150px;
 }
 
 .menu {
     float: left;
     min-width: 40%;
-    margin: 80px 0px 0px 50px;
+    margin: 0px 0px 0px 20px;
+
+    border-top: 1px solid #000;
 }
 
 .menu hr {
@@ -52,23 +63,22 @@ body {
  }
 
 .content {
-    background-color: #996633;
-    margin-top: 20px;
+    background-color: #e5c392;
+    padding-top: 20px;
     min-height: 500px;
     border-top: 1px solid #444;
     border-bottom: 1px solid #444;
+
     padding: 10px 0px;
+
+    color: #000;
 }
 
 .footer {
     margin-top: 10px;
 }
 
-.inner {
-    margin: 0px auto;
-    clear: both;
-    width: 940px;
-}
+
 
 .inner h3 {
     font-size: 20px;

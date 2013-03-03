@@ -15,18 +15,17 @@
     <div class="header">
         <div class="inner">
             <img src="{{ url_for('static', filename='wrc_logo_small.png')}}" />
-            <div class="header_logo_text">
-                <!--World <br/> Relief <br/>
+            <img src="{{ url_for('static', filename='logo_text.png')}}" style="margin-top: 170px"/>
+            <div class="logo_text">
+                <!---World <br/> Relief <br/>
                 Organization <br/>
-                of <br/> Children/-->
-                World Relief Organization of Children
+                of <br/>Children
+                World Relief Organization of Children/--->
             </div>
             <div class="menu">
-                <hr/>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <hr/>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
             </div>
         </div>
     </div>
@@ -39,7 +38,12 @@
 
     <div class="footer">
         <div class="inner">
-            <h3>About</h3>
+            <ul>
+                <li></li>
+            </ul>
+
+            <h3>Social</h3>
+            <h3>Donate</h3>
         </div>
     </div>
 
