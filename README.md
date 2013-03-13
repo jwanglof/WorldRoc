@@ -15,14 +15,14 @@ http://www.capsunlock.net/2011/05/coding-with-flask-and-sqlalchemy.html
 Madrid Meeting
 ======
 Design
--	”Outer glow” around “middle part” and logo.
--	Buttons: Home, About, Projects, Media, Contact
--	Links at bottom: Facebook, PayPal, Google Checkout
--	Change “World Relief Organization for Children” to just “WorldROC”
--	Different font on hyper-links (buttons) and “WorldROC”
+[x]	”Outer glow” around “middle part” and logo.
+[x]	Buttons: Home, About, Projects, Media, Contact
+[x]	Links at bottom: Facebook, PayPal, Google Checkout
+[x]	Change “World Relief Organization for Children” to just “WorldROC”
+[?]	Different font on hyper-links (buttons) and “WorldROC”
 	
 Content
--	Home - short introduction about the organization, the work etc.
--	About - Who we are, why we are good at doing this, our goals etc.
--	Projects - Introduction to our current projects, put “past projects” at the bottom.
--	Contact - Contact info for USA, Sri Lanka, Thailand (?) and Sweden.
+[ ]	Home - short introduction about the organization, the work etc.
+[ ]	About - Who we are, why we are good at doing this, our goals etc.
+[ ]	Projects - Introduction to our current projects, put “past projects” at the bottom.
+[ ]	Contact - Contact info for USA, Sri Lanka, Thailand (?) and Sweden.
